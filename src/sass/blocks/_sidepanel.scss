@@ -9,8 +9,12 @@
     height: 340px;
     z-index: 3;
     color: #fff;
-    svg {
-        color: #fff;
+    &__link{
+        &:hover {
+            svg path {
+                fill: $main-color;
+            }
+        }
     }
     
     &__divider {
