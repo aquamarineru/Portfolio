@@ -8,12 +8,8 @@
     align-items: center;
     height: 340px;
     z-index: 3;
-    color: #000;
-
-    }
+    color: #fff;
     &__link{
-        svg path {
-            fill: #000;
         &:hover {
             svg path {
                 fill: $main-color;
@@ -24,7 +20,7 @@
     &__divider {
         width: 2px;
         height: 70px;
-        background-color: #000;
+        background-color: #fff;
     }
     &__text {
         height: 150px;
@@ -35,4 +31,4 @@
             width: 150px;
         }
     }
-}
+}    
