@@ -27,4 +27,18 @@
         color: #000000;
 
     }
+    &__section-title{
+        position: relative;
+        color: #000;
+        text-align: center;
+        @include before_circle;
+        &::before {
+            top: -6px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    &__section-subtitle {
+        text-align: center;
+    }
 }
