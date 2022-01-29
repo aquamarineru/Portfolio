@@ -5,7 +5,7 @@
     padding: 12px 25px;
     transition: 0.5s all;
     &:hover {
-        background: none;
+        transform: scale(1.07)
     }
     &:active{
         box-shadow: -3px 3px 20px $main-color;
@@ -16,8 +16,10 @@
         background-color: transparent;
         height: 45px;
         padding: 12px 25px;
+        transition: all 0.6s;
         &:hover {
-            box-shadow: 0 0 40px 40px $main-color inset;
+            transform: scale(1.07)
+        //     box-shadow: 0 0 40px 40px $main-color inset;
         }
         &:active{
             box-shadow: -3px 3px 20px $main-color;

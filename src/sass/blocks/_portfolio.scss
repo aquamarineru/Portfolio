@@ -21,8 +21,8 @@
             width: 100%;
         }
         &:hover {
-            // transform: scale(1.07);
-            filter: drop-shadow(2px 3px 5px $main-color) opacity(70%);
+            transform: scale(1.07);
+            filter: opacity(90%); //drop-shadow(2px 3px 5px $main-color)
         }
     }
 }
