@@ -1,0 +1,45 @@
+.article {
+        padding: 150px 70px 60px 70px;
+        box-shadow: 0 1px 21px rgb(0 0 0 / 14%);
+        h1 {
+            text-align: center;
+            color: $main-color;
+        }
+        &__title {
+            margin-top: 35px;
+            position: relative;
+            font-size: 36px;
+            @include before_circle;
+            &::before {
+                top: -7%;
+                left: -15px;
+    
+            }
+        }
+        &__subtitle{
+            font-size: 20px;
+        }
+        &__descr {
+            margin: 30px;
+        }
+        &__list {
+            list-style-type: none;
+            color: #000;
+            line-height: 25px;
+            a {
+                color: #000;
+                &:hover {
+                    color: $main-color;
+                    text-decoration: none;
+                }
+            }
+        }
+        &__link {
+            color: #000;
+            &:hover {
+                color: $main-color;
+                text-decoration: none;
+            }
+        }
+        
+}

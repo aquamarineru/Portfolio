@@ -6,7 +6,8 @@
         grid-template-columns: 400px 600px;
         justify-content: space-between;
     }
-    &__photo {
+    &__img {
+        box-shadow: 0 1px 21px rgb(0 0 0 / 25%);
         img {
             width: 100%;
         }
