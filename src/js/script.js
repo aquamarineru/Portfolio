@@ -19,9 +19,9 @@ counters.forEach( (item, i) => {
 $(document).ready(function(){
     $(window).scroll(function(){  
         if ($(window).scrollTop() > 130 ){
-            $(".sidepanel__link-svg").css("color", "rgb(6, 35, 4)");
-			$(".sidepanel__divider").css("background-color", "rgb(6, 35, 4)");
-			$(".sidepanel__text").css("color", "rgb(6, 35, 4)");
+            $(".sidepanel__link-svg").css("color", "black");
+			$(".sidepanel__divider").css("background-color", "black");
+			$(".sidepanel__text").css("color", "black");
 		}  else {
 			$(".sidepanel__link-svg").css("color", "white");
 			$(".sidepanel__divider").css("background-color", "white");
