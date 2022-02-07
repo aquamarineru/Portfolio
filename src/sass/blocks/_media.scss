@@ -35,6 +35,18 @@
             padding-top: 40px;
         }
     }
+    .skills {
+        &__items {
+            grid-template-columns: repeat(auto-fit,270px);
+            justify-content: space-between;
+        }
+        &__scores{
+            grid-template-columns: repeat(auto-fit, 350px);
+            grid-auto-rows: minmax(70px, auto);
+            justify-content: space-between;
+            padding: 0 30px;
+        }
+    }
 
 }
 
