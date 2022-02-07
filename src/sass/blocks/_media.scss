@@ -82,6 +82,21 @@
             padding: 40px 45px 0 45px;
         }
     }
+    .skills {
+        &__items {
+            padding: 0 20px;
+            justify-content: center;
+        }
+        &__scores {
+            justify-content: center;
+            grid-template-columns: repeat(auto-fit, 320px);
+            grid-auto-rows: minmax(70px, auto);
+            margin-top: 40px;
+            &-line {
+                width: 100%;
+            }
+        }
+    }
 }
 
 @media (max-width: 768px){
@@ -183,6 +198,14 @@
     .resume {
         &__wrapper{
             padding: 40px 5px 0 5px;
+        }
+    }
+    .skills {
+        &__items {
+            margin-top: 20px;
+        }
+        &__scores {
+            grid-template-columns: repeat(auto-fit,300px);
         }
     }
     
